@@ -79,6 +79,11 @@ brew install \
 
 ```bash
 brew install \
+  opentofu
+```
+
+```bash
+brew install \
   jetbrains-toolbox
 ```
 
