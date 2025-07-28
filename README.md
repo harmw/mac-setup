@@ -34,6 +34,7 @@ brew install \
   gpg \
   zoom \
   gh \
+  cloudflare-warp \
   balenaetcher \
   raspberry-pi-imager
 ```
