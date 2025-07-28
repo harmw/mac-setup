@@ -28,7 +28,6 @@ brew install \
   gping \
   tree \
   jq \
-  exa \
   iterm2 \
   nmap \
   gpg \
