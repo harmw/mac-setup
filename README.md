@@ -29,6 +29,7 @@ brew install \
   tree \
   jq \
   iterm2 \
+  stats \
   nmap \
   gpg \
   zoom \
