@@ -40,6 +40,12 @@ brew install \
 
 ```bash
 brew install \
+  yt-dlp \
+  vlc
+```
+
+```bash
+brew install \
   colima \
   docker \
   docker-buildx
