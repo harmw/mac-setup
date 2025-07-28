@@ -1,0 +1,28 @@
+[init]
+  defaultBranch = master
+
+[user]
+    name =
+    email =
+    signingkey =
+
+[core]
+    editor = /usr/bin/vim
+
+[alias]
+    st = status
+    ci = commit -v
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    up = pull --rebase
+    gco = checkout -b
+    clear = reset --hard HEAD
+    rmi = rm --cached
+
+[commit]
+    gpgsign = true
+
+[push]
+	autoSetupRemote = true
