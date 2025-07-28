@@ -54,11 +54,21 @@ export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
 
 ```bash
 brew install \
+  utm
+```
+
+```bash
+brew install \
   awscli \
   aws-sam-cli \
   aws-cdk \
   aws-vpn-client \
   session-manager-plugin
+```
+
+```bash
+brew install \
+  --cask google-cloud-sdk
 ```
 
 ```bash
