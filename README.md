@@ -35,6 +35,7 @@ brew install \
   zoom \
   gh \
   cloudflare-warp \
+  coconutbattery \
   balenaetcher \
   raspberry-pi-imager
 ```
@@ -50,6 +51,11 @@ brew install \
   colima \
   docker \
   docker-buildx
+```
+
+```bash
+brew install \
+  discord
 ```
 
 Environment config for colima/docker:
