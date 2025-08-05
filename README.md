@@ -12,6 +12,14 @@ On M1:
 softwareupdate --install-rosetta --agree-to-license
 ```
 
+Install `oh-my-zsh` from [here](https://ohmyz.sh/#install).
+
+Configure the _half-life_ theme:
+
+```bash
+sed -i .foo -r 's/(ZSH_THEME)=".+"/\1="half-life"/' ~/.zshrc
+```
+
 ## Tools
 
 Nyx release manager: https://github.com/mooltiverse/nyx/releases
