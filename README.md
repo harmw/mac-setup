@@ -94,6 +94,11 @@ brew install \
 
 ```bash
 brew install \
+  b2-tools
+```
+
+```bash
+brew install \
   opentofu
 ```
 
