@@ -39,6 +39,7 @@ brew install \
   iterm2 \
   stats \
   nmap \
+  ripgrep \
   gpg \
   zoom \
   gh \
