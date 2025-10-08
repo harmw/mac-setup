@@ -40,6 +40,7 @@ brew install \
   stats \
   nmap \
   ripgrep \
+  bat \
   gpg \
   zoom \
   gh \
@@ -128,6 +129,11 @@ brew install \
 ```bash
 brew install \
   volta
+```
+
+```bash
+brew install \
+  oven-sh/bun/bun
 ```
 
 ## Java
