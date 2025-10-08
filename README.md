@@ -20,6 +20,13 @@ Configure the _half-life_ theme:
 sed -i .foo -r 's/(ZSH_THEME)=".+"/\1="half-life"/' ~/.zshrc
 ```
 
+## Configuration
+
+Manual configuration required:
+
+- Gpg configuration local and in GitHub
+- iTerm2 profile (Quake-style console behind hotkey)
+
 ## Tools
 
 Nyx release manager: https://github.com/mooltiverse/nyx/releases
@@ -28,30 +35,19 @@ Orion browser: https://kagi.com/orion/
 
 ## Tools (Homebrew)
 
-Get homebrew from: https://brew.sh
+Get the homebrew package manager [here](https://brew.sh).
 
 ```bash
 brew install \
   macchina \
-  gping \
-  tree \
-  jq \
-  iterm2 \
   stats \
   nmap \
-  ripgrep \
-  bat \
   gpg \
-  zoom \
-  gh \
   cloudflare-warp \
   coconutbattery \
+  discord \
   balenaetcher \
-  raspberry-pi-imager
-```
-
-```bash
-brew install \
+  raspberry-pi-imager \
   yt-dlp \
   vlc
 ```
@@ -60,12 +56,8 @@ brew install \
 brew install \
   colima \
   docker \
-  docker-buildx
-```
-
-```bash
-brew install \
-  discord
+  docker-buildx \
+  utm
 ```
 
 Environment config for colima/docker:
@@ -73,11 +65,6 @@ Environment config for colima/docker:
 ```
 export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
 export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
-```
-
-```bash
-brew install \
-  utm
 ```
 
 ```bash
@@ -101,6 +88,13 @@ brew install \
 
 ```bash
 brew install \
+  gping \
+  tree \
+  jq \
+  iterm2 \
+  ripgrep \
+  bat \
+  gh \
   opentofu
 ```
 
@@ -128,11 +122,7 @@ brew install \
 
 ```bash
 brew install \
-  volta
-```
-
-```bash
-brew install \
+  volta \
   oven-sh/bun/bun
 ```
 
@@ -147,7 +137,3 @@ brew install \
 echo eval "$(jenv init -)" >> ~/.zshrc
 ```
 
-Notes:
-
-- Gpg configuration local and in GitHub
-- iTerm2 profile (Quake-style console behind hotkey)
