@@ -92,10 +92,18 @@ brew install \
   tree \
   jq \
   iterm2 \
-  ripgrep \
-  bat \
   gh \
   opentofu
+```
+
+These are _new-wave/rust_ unix tools (`grep`, `cat`, `du`, `df`):
+
+```bash
+brew install \
+  ripgrep \
+  bat \
+  duf \
+  dust
 ```
 
 ```bash
