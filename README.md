@@ -31,8 +31,6 @@ Manual configuration required:
 
 Nyx release manager: https://github.com/mooltiverse/nyx/releases
 
-Orion browser: https://kagi.com/orion/
-
 ## Tools (Homebrew)
 
 Get the homebrew package manager [here](https://brew.sh).
@@ -46,6 +44,8 @@ brew install \
   cloudflare-warp \
   coconutbattery \
   discord \
+  threema \
+  orion \
   balenaetcher \
   raspberry-pi-imager \
   yt-dlp \
