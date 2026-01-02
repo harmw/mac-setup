@@ -44,7 +44,7 @@ brew install \
   cloudflare-warp \
   coconutbattery \
   discord \
-  threema \
+  threema@beta \
   orion \
   balenaetcher \
   raspberry-pi-imager \
