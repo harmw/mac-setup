@@ -57,6 +57,7 @@ brew install \
   colima \
   docker \
   docker-buildx \
+  docker-compose \
   utm
 ```
 
