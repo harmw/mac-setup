@@ -94,6 +94,7 @@ brew install \
   jq \
   iterm2 \
   gh \
+  duckdb \
   opentofu
 ```
 
