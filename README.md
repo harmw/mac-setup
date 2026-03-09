@@ -148,3 +148,13 @@ brew install \
 echo eval "$(jenv init -)" >> ~/.zshrc
 ```
 
+## Fine, AI, whatever
+
+```bash
+brew install \
+  ollama \
+  anomalyco/tap/opencode \
+  mistral-vibe
+brew install --cask \
+  opencode-desktop
+```
