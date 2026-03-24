@@ -153,6 +153,7 @@ echo eval "$(jenv init -)" >> ~/.zshrc
 ```bash
 brew install \
   ollama \
+  charmbracelet/tap/crush \
   anomalyco/tap/opencode \
   mistral-vibe
 brew install --cask \
