@@ -137,6 +137,13 @@ brew install \
   oven-sh/bun/bun
 ```
 
+## Go
+
+```bash
+brew install \
+  golang
+```
+
 ## Java
 
 ```bash
