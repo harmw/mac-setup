@@ -93,6 +93,7 @@ brew install \
   tree \
   jq \
   iterm2 \
+  glow \
   gh \
   git-lfs \
   duckdb \
