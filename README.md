@@ -142,7 +142,8 @@ brew install \
 
 ```bash
 brew install \
-  golang
+  golang \
+  golangci-lint
 ```
 
 ## Java
