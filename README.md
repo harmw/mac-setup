@@ -130,6 +130,10 @@ brew install \
   rustup
 ```
 
+```bash
+rustup-init
+```
+
 ## Node
 
 ```bash
@@ -163,5 +167,8 @@ echo eval "$(jenv init -)" >> ~/.zshrc
 brew install \
   ollama \
   charmbracelet/tap/crush \
-  mistral-vibe
+  mistral-vibe \
+  zed \
+  pi-coding-agent \
+  block-goose-cli
 ```
