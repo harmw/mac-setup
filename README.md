@@ -110,11 +110,6 @@ brew install \
   dust
 ```
 
-```bash
-brew install \
-  jetbrains-toolbox
-```
-
 ## Python
 
 ```bash
